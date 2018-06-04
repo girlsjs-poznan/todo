@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 20px auto;
 	text-align: center;
 }
@@ -21,7 +21,7 @@ h1 {
 }
 
 input {
-	width: 70%;
+	width: 50%;
 	font-size: 20px;
 	line-height: 30px;
 	padding: 10px 20px;
@@ -29,7 +29,7 @@ input {
 }
 
 button {
-	width: 10%;
+	width: 20%;
 	line-height: 50px;
 	vertical-align: middle;
 	text-transform: uppercase;
@@ -44,3 +44,26 @@ button:hover {
 	background: #fff;
 	color: #000;
 }
+
+ul {
+	width: 70%;
+	list-style: none;
+	text-align: left;
+	margin: auto;
+	padding: 40px 0;
+}
+
+ul button {
+	float: right;
+}
+
+li {
+	font-size: 25px;
+	line-height: 60px;
+}
+
+li.done {
+	text-decoration: line-through;
+	opacity: 0.6
+}
+
